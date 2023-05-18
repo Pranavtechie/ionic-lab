@@ -1,0 +1,7 @@
+{
+  "name": "native-plugin-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

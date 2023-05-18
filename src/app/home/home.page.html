@@ -1,0 +1,53 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+     Native Plugins
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-row>
+    <ion-col size="6">
+      <ion-card color="primary" routerLink="/home/network">
+        <ion-card-header>
+          <ion-card-title class="ion-text-center">Network & Toast</ion-card-title>
+        </ion-card-header>
+      </ion-card>
+    </ion-col>
+
+    <ion-col size="6">
+      <ion-card color="primary" (click)="share()">
+        <ion-card-header>
+          <ion-card-title class="ion-text-center">Social Sharing</ion-card-title>
+        </ion-card-header>
+      </ion-card>
+    </ion-col>
+
+    <ion-col size="6">
+      <ion-card color="primary" routerLink="/home/camera">
+        <ion-card-header>
+          <ion-card-title class="ion-text-center">Access Camera</ion-card-title>
+        </ion-card-header>
+      </ion-card>
+    </ion-col>
+
+    <ion-col size="6">
+      <ion-card color="primary" routerLink="/home/contacts">
+        <ion-card-header>
+          <ion-card-title class="ion-text-center">Contacts & Call</ion-card-title>
+        </ion-card-header>
+      </ion-card>
+    </ion-col>
+
+    <ion-col size="6">
+      <ion-card color="primary" routerLink="/home/local-notification">
+        <ion-card-header>
+          <ion-card-title class="ion-text-center">Local Notifications</ion-card-title>
+        </ion-card-header>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+
+</ion-content>
