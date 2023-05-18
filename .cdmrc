@@ -1,0 +1,2 @@
+terminals: ["npm install"]
+tabs: ["src/app/home/app-routing.module.ts"]
